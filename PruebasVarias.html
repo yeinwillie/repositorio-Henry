@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <script>
+
+
+/* var nombre = "Yein1";
+PrimeraF(nombre);
+
+function PrimeraF(minombre) { 
+console.log("Hola " + minombre) ;
+
+}*/
+
+/* function SumaDeNumeros(a,b) {
+console.log(a+b);
+}
+
+SumaDeNumeros (1,5);*/
+
+/*SumaDeNumeros (3,5);
+function SumaDeNumeros(a,b) {
+    var suma = a+b;
+return suma;
+
+} */
+
+
+/* function DivisionDeNumeros(a,b) {
+    var Division = a / b;
+return Division;
+
+}
+
+var divi = DivisionDeNumeros (20,5);
+console.log(divi); */
+
+/* function PuedeManejar (edad) {
+    if (edad> 18) ;
+
+    {return true;}
+
+ return false; }
+ 
+var proof = PuedeManejar(22) ; 
+console.log (proof);*/
+
+/*function esPar(num) {
+  // Devuelve "true" si "num" es par
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  var resto = num % 2;
+  if (resto = 0) {return true;}
+  return false;
+  }
+  var proof2 = esPar(2);
+  console.log(proof2);*/
+
+ /* let numeroTelefono = "454545";
+  numeroTelefono = null;
+
+  console.log(numeroTelefono);*/
+
+  /* for (i=0; i<10 ; i++){ 
+      console.log(i);
+  }*/
+
+ /* function args() {
+console.log(arguments)
+args("hola","otro",3)
+
+  }/*
+  function obtenerMayor(x, y) {
+  // "x" e "y" son números enteros (int).
+  // Devuelve el número más grande
+  // Si son iguales, devuelve cualquiera de los dos
+  // Tu código:
+  /*if (x>y) {return x;}
+  else if (y>x) {return y;}
+else {return x;}
+ }
+ var mayor = obtenerMayor (1,2);
+ console.log(mayor);*/
+
+
+ /*function conection(status) {
+  //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
+  //Cuando el estado es igual a 1, el usuario está "Online"
+  //Cuando el estado es igual a 2, el usuario está "Away"
+  //De lo contrario, presumimos que el usuario está "Offline"
+  //Devolver el estado de conexión de usuario en cada uno de los casos.
+  if (status===1) {return "Online";}
+  else if (status===2) {return "Away";}
+else {return "offline";}
+}
+var conexion = conection (2);
+console.log(conexion);*/ 
+
+
+/*function fizzBuzz(numero) {
+  // Si "numero" es divisible entre 3, devuelve "fizz"
+  // Si "numero" es divisible entre 5, devuelve "buzz"
+  // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
+  // De lo contrario, devuelve el numero
+
+  if (numero % 3 === 0 && numero % 5 === 0) {return "fizzbuzz";}
+  
+    else if (numero % 5 === 0) {return "buzz";}
+    else if (numero % 3 === 0) {return "fizz"; } 
+    else { return numero; } 
+   
+}
+var fB = fizzBuzz(15);
+console.log(fB);*/ 
+
+/*var numero = 45.5;
+Math.floor(numero);
+console.log(numero);*/ 
+
+/*function esVocal(letra){
+  //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
+  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
+  //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
+  // Si no es vocal, tambien debe "devolver "Dato incorrecto".
+  //Escribe tu código aquí
+
+  if (letra === "a" || letra === "e" || letra ==="i" || letra ==="o"|| letra ==="u") { return "Es vocal";}
+  
+  else if(letra.length>=2){ return "Dato incorrecto";}
+  else {return "Dato incorrecto"; }
+}
+
+var vocal=esVocal("o");
+console.log(vocal);*/
+
+/*function esPositivo(numero) {
+  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
+  //Si el número es positivo, devolver ---> "Es positivo"
+  //Si el número es negativo, devolver ---> "Es negativo"
+  //Si el número es 0, devuelve false
+
+ if (numero>0) { return "Es positivo"; }
+  else if (numero<0) {return "Es negativo";}
+    else {return false; }
+}
+
+var pos=esPositivo(0);
+console.log(pos);*/
+
+function doWhile(numero) {
+  //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
+  //Retornar el valor final.
+  //Usar el bucle do ... while.
+
+
+var i=0;
+do {
+  
+  i = i++;
+  numero = numero + 5;
+ }
+while (i<8);
+return numero;
+ }
+var proof= doWhile(1);
+console.log(proof);
+
+</script>
+    
+</body>
+</html>
